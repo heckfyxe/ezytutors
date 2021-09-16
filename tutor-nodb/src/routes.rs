@@ -1,4 +1,4 @@
-use crate::handlers::health_check_handler;
+use crate::handlers::{health_check_handler, new_course};
 use actix_web::web;
 
 pub fn general_routes(cfg: &mut web::ServiceConfig) {
